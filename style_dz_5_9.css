@@ -1,0 +1,32 @@
+.wrapper{
+width: 562px;
+height: 450px;
+border: 1px solid #000;
+position: relative;
+background-color: #81CEC7;
+}
+.world{
+position: absolute;
+top: 100px;
+z-index: 1;
+}
+.water{
+position: absolute;
+bottom: 5px;
+z-index: 3;
+
+}
+.clouds{
+width: 62%;
+position: absolute;
+z-index: 1;
+top: 0px;
+right: 0px;
+}
+.wooden-ship{
+width: 110px;
+position: absolute;
+z-index: 2;
+bottom: 45px;
+left: 20px;
+}
